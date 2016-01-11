@@ -1,0 +1,92 @@
+<div class="layouts"><main id="main" class="main-content" tabindex="-1" role="main" data-subheader-active="home">
+      <div class="main-content__inner">
+        <script>
+            require(["main"], function () {
+              require(["amd/dynamic-page-creation"], function (DynamicPage) {
+                var options = {
+                  
+                  "baseAdPageId":"chasehome_3",
+                  "layouts": [
+                    
+                          {
+                            "id": "returning_a",
+                            "adPageId":"",
+                            "aboveFoldModules": [
+                              
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/geoimage/geo/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/carousel/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/ads/module.html" }
+                            ],
+                            "belowFoldModules": [
+                              
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/mosaic/module.html" }
+                            ]
+                          },
+                          {
+                            "id": "prospect_a",
+                            "adPageId":"",
+                            "aboveFoldModules": [
+                              
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/carousel/carousel/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/ads/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/mosaic/module.html" }
+                            ],
+                            "belowFoldModules": [
+                              
+                            ]
+                          },
+                          {
+                            "id": "prospect_b",
+                            "adPageId":"",
+                            "aboveFoldModules": [
+                              
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/carousel/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/ads/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/ads/module.html" }
+                            ],
+                            "belowFoldModules": [
+                              
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/ads/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/carousel_jcr/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/mosaic/module.html" }
+                            ]
+                          },
+                          {
+                            "id": "returning_b",
+                            "adPageId":"",
+                            "aboveFoldModules": [
+                              
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/carousel/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/ads/module.html" }
+                            ],
+                            "belowFoldModules": [
+                              
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/mosaic/module.html" }
+                            ]
+                          },
+                          {
+                            "id": "logoff_a",
+                            "adPageId":"cpo_sign_out",
+                            "aboveFoldModules": [
+                              
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/ads/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/ads/module.html" },
+                                { "url" : "file:///C|/Users/tkambham/Desktop/PG/content/preg/en/mosaic/module.html" }
+                            ],
+                            "belowFoldModules": [
+                              
+                            ]
+                          }
+                    ],
+                    "testing": {
+                      
+                      "returning": {
+                        "b": 90
+                      }
+                    }
+                    
+                };
+                DynamicPage.init(options);
+              });
+            });
+          </script>

@@ -1,0 +1,92 @@
+
+        <script>
+            require(["main"], function () {
+              require(["amd/dynamic-page-creation"], function (DynamicPage) {
+                var options = {
+                  
+                  "baseAdPageId":"chasehome_3",
+                  "layouts": [
+                    
+                          {
+                            "id": "returning_a",
+                            "adPageId":"",
+                            "aboveFoldModules": [
+                              
+                                { "url" : "/content/chase-ux/en/structured/module/geoimage/ad-geo/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/carousel/carousel-single-images/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/adtriplet/primary-triplet/_jcr_content/module.html" }
+                            ],
+                            "belowFoldModules": [
+                              
+                                { "url" : "/content/chase-ux/en/structured/module/mosaic/news-and-stories/_jcr_content/module.html" }
+                            ]
+                          },
+                          {
+                            "id": "prospect_a",
+                            "adPageId":"",
+                            "aboveFoldModules": [
+                              
+
+                                { "url" : "/content/chase-ux/en/structured/module/carousel/carousel-attached-icons/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/adtriplet/primary-triplet/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/mosaic/news-and-stories/_jcr_content/module.html" }
+                            ],
+                            "belowFoldModules": [
+                              
+                            ]
+                          },
+                          {
+                            "id": "prospect_b",
+                            "adPageId":"",
+                            "aboveFoldModules": [
+                              
+                                { "url" : "/content/chase-ux/en/structured/module/carousel/carousel-attached-icons/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/adtriplet/primary-triplet/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/tile/tilev1-left-putyourbankinpocket-2/_jcr_content/module.html" }
+                            ],
+                            "belowFoldModules": [
+                              
+                                { "url" : "/content/chase-ux/en/structured/module/tile/tilev2-right-findatmbranch-2/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/carousel/card-carousel-stack/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/mosaic/news-and-stories/_jcr_content/module.html" }
+                            ]
+                          },
+                          {
+                            "id": "returning_b",
+                            "adPageId":"",
+                            "aboveFoldModules": [
+                              
+                                { "url" : "/content/chase-ux/en/structured/module/carousel/carousel-attached-icons/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/adtriplet/primary-triplet/_jcr_content/module.html" }
+                            ],
+                            "belowFoldModules": [
+                              
+                                { "url" : "/content/chase-ux/en/structured/module/mosaic/news-and-stories/_jcr_content/module.html" }
+                            ]
+                          },
+                          {
+                            "id": "logoff_a",
+                            "adPageId":"cpo_sign_out",
+                            "aboveFoldModules": [
+                              
+                                { "url" : "/content/chase-ux/en/structured/module/adtile/ad_tile1/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/adtriplet/primary-triplet/_jcr_content/module.html" },
+                                { "url" : "/content/chase-ux/en/structured/module/mosaic/news-and-stories/_jcr_content/module.html" }
+                            ],
+                            "belowFoldModules": [
+                              
+                            ]
+                          }
+                    ],
+                    "testing": {
+                      
+                      "returning": {
+                        "b": 90
+                      }
+                    }
+                    
+                };
+                DynamicPage.init(options);
+              });
+            });
+          </script>
